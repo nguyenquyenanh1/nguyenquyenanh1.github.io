@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 #banner img {
 		    width: 1046px;
     		height: 300px;
@@ -20,6 +23,18 @@
 }
 #main-menu {
 	text-align: center;
+}
+#main-menu > a:first-child {
+	padding: 4px;
+	background-color: red;
+	border-radius: 50%;
+	position:  absolute;
+	top: 0;
+	left: 390px;
+}
+#main-menu > a:first-child > img {
+	max-width: 160px;
+	border-radius: 50%;
 }
 
 .container  {
