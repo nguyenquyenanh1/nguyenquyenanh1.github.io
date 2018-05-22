@@ -1,6 +1,6 @@
 .honda img {
 	 
-	width: 32.1%;
+	width: 33.3333%;
 	height: 300px;
 	display: block;
 	margin: auto;
@@ -17,13 +17,13 @@
 
 .honda img:hover {
 	opacity: 0.5;
-	transition: 2s;
+	transition: 1s;
 }
 
 
 .audi img {
 	 
-	width: 32.1%;
+	width: 33.3333%;
 	height: 300px;
 	display: block;
 	margin: auto;
@@ -40,13 +40,13 @@
 
 .audi img:hover {
 	opacity: 0.5;
-	transition: 2s;
+	transition: 1s;
 }
 
 
 .ferrari img {
 	 
-	width: 32.1%;
+	width: 33.3333%;
 	height: 300px;
 	display: block;
 	margin: auto;
@@ -63,11 +63,11 @@
 
 .ferrari img:hover {
 	opacity: 0.5;
-	transition: 2s;
+	transition: 1s;
 }
 .camry img {
 	 
-	width: 32.1%;
+	width: 33.3333%;
 	height: 300px;
 	display: block;
 	margin: auto;
@@ -84,9 +84,10 @@
 
 .camry img:hover {
 	opacity: 0.5;
-	transition: 2s;
+	transition: 1s;
 }
 .footer {
+	text-decoration: none;
 	text-align: center;
 	font-size: 20px;
 	font-style: italic;
