@@ -81,11 +81,6 @@ h1 {
 	font-family: sans-serif;
 	text-align: center;
 	font-weight: bolder;
-	targets: 'div',
-  	left: '80%', // Animate all divs left position to 80%
-  	opacity: .8, // Animate all divs opacity to .8
-  	backgroundColor: '#FFF' // Animate all divs background color to #FFF
-});
 }
 
 
