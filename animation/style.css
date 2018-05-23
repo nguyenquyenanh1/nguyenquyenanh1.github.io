@@ -1,0 +1,91 @@
+html,body{margin: 0;padding: 0;}
+*{box-sizing: border-box;}
+img{max-width: 100%;}
+
+body {
+	font-family: "Open Sans ", arial, sans-serif;
+	font-weight: 500;
+	background-color: #FFFFFF;
+}
+
+h1 {
+	margin: 25px 0;
+	font-size:2.5em;
+	line-height: 1.5em;
+	font-family: Georgia;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	text-align: center;
+	background-color: red;
+	color: black;
+}
+.wrap {
+	margin: auto;
+	max-width: 1000px;
+}
+}
+.xe1 {
+	float: left;
+	width: 33.3333%;
+	height: 200px;
+	padding: 15px;
+	position: relative;
+}
+.car1 img {
+	width: 33.333333%;
+	height: 200px;
+	float: left;
+	padding: 4px;
+	border: 1px solid #FFF;
+	cursor: pointer;
+}
+.car1 img {
+	border: 1px solid #FFF;
+	vertical-align: middle;
+	opacity: 1;
+	transition: opacity 0.5s linear;	
+}
+
+.car1:hover img {
+	opacity: 0.1;
+}
+.xe2 img {
+	float: left;
+	width: 33.333333%;
+	height: 200px;
+	padding: 15px;
+	position: relative;
+}
+
+
+.car2 img {
+	width: 33.333333%;
+	height: 200px;
+	float: left;
+	padding: 4px;
+	border: 1px solid #FFF;
+	cursor: pointer;
+}
+.car2 img {
+	border: 1px solid #FFF;
+	vertical-align: middle;
+	opacity: 0.1;
+	transition: opacity 0.5s linear;	
+}
+
+.car2:hover img {
+	opacity: 1;
+}
+.footer {
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	targets: 'div',
+  	left: '80%', // Animate all divs left position to 80%
+  	opacity: .8, // Animate all divs opacity to .8
+  	backgroundColor: '#FFF' // Animate all divs background color to #FFF
+});
+}
+
+
