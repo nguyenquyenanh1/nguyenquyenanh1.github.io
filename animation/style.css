@@ -1,0 +1,94 @@
+html,body{margin: 0;padding: 0;}
+*{box-sizing: border-box;}
+img{max-width: 100%;}
+
+body {
+	font-family: "Open Sans ", arial, sans-serif;
+	font-weight: 500;
+	background-color: #FFFFFF;
+}
+@keyframes title {
+    0%  {background-color: #EF7123; color: #F9E554;}
+    25%  {background-color: #633642; color: #FFFF2F;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: red; color: green;}
+}
+
+h1 {
+	margin: 25px 0 10px 0;
+	font-size:2.5em;
+	line-height: 1.5em;
+	font-family: Georgia;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	text-align: center;
+	background-color: red;
+	color: black;
+	animation: title 4s ease infinite;
+}
+.wrap {
+	margin: auto;
+	max-width: 1000px;
+}
+}
+.xe1 {
+	float: left;
+	width: 33.3333%;
+	height: 200px;
+	padding: 15px;
+	position: relative;
+}
+.car1 img {
+	width: 33.333333%;
+	height: 200px;
+	float: left;
+	padding: 4px;
+	border: 1px solid #FFF;
+	cursor: pointer;
+}
+.car1 img {
+	border: 1px solid #FFF;
+	vertical-align: middle;
+	opacity: 1;
+	transition: opacity 0.5s linear;	
+}
+
+.car1:hover img {
+	opacity: 0.1;
+}
+.xe2 img {
+	float: left;
+	width: 33.333333%;
+	height: 200px;
+	padding: 15px;
+	position: relative;
+}
+
+
+.car2 img {
+	width: 33.333333%;
+	height: 200px;
+	float: left;
+	padding: 4px;
+	border: 1px solid #FFF;
+	cursor: pointer;
+}
+.car2 img {
+	border: 1px solid #FFF;
+	vertical-align: middle;
+	opacity: 0.1;
+	transition: opacity 0.5s linear;	
+}
+
+.car2:hover img {
+	opacity: 1;
+}
+.footer {
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: bolder;
+}
+
+
