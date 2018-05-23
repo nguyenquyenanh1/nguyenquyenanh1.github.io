@@ -7,9 +7,16 @@ body {
 	font-weight: 500;
 	background-color: #FFFFFF;
 }
+@keyframes title {
+    0%  {background-color: #EF7123; color: #F9E554;}
+    25%  {background-color: #633642; color: #FFFF2F;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: red; color: green;}
+}
 
 h1 {
-	margin: 25px 0;
+	margin: 25px 0 10px 0;
 	font-size:2.5em;
 	line-height: 1.5em;
 	font-family: Georgia;
@@ -18,6 +25,7 @@ h1 {
 	text-align: center;
 	background-color: red;
 	color: black;
+	animation: title 4s ease infinite;
 }
 .wrap {
 	margin: auto;
