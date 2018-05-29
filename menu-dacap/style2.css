@@ -1,0 +1,72 @@
+.content img{
+	max-width: 1250px;
+	height: 500px;
+	display: block;
+	position: absolute;
+	left: 400px;
+	top: 310px;
+}
+.h1{
+	font-size: 36px;
+    margin: -80px 0;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center!important;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+.p{
+	width: 1000px;
+	display: block;
+	margin: auto;
+}
+.menu img{
+ 	width: 1250px;
+ 	height: auto;
+ 	display: block;
+ 	position: relative;
+ 	margin: auto;
+ 	top: -30px;
+}
+.tintuc{
+	width: 1000px;
+	display: block;
+	margin: auto;
+}
+.tintuc img{
+	width: 1000px;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+.htch{
+	display: inline;
+	text-align: center;
+}
+.thanhtuu{
+	width: 1000px;
+	display: block;
+	margin: auto;
+}
+.thanhtuu h1{
+	text-align: center;
+}
+.sanpham{
+	display: block;
+	margin: auto;
+	width: 1000px;
+}
+.sanpham h1{
+	text-align: center;
+}
+.cdtt {
+	width: 1000px;
+	display: block;
+	margin: auto;
+}
+.cdtt h1{
+	text-align: center;
+}
