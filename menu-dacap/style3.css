@@ -1,0 +1,41 @@
+.detail-food {
+    width: 100%;
+    border-bottom: 5px solid green;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.left-detail-food {
+    padding: 10px;
+    width: 70%;
+    float: left;
+}
+.left img {
+	height: 362px;
+    padding-right: 5px;
+    width: 60%;
+    float: left;
+}
+.right {
+    padding-left: 5px;
+    width: 40%;
+    float: left;
+    height: 384px;
+}
+.right-detail-food {
+    position: relative;
+    padding: 10px;
+    width: 30%;
+    float: left;
+}
+.right-detail-food h3 {
+    text-transform: uppercase;
+    border-radius: 4px;
+    color: red;
+    background-color: #a0c6eb;
+    padding: 5px;
+}
+span.cost {
+    color: red;
+}
+.right-detail-food p {
+    color: brown;
