@@ -1,0 +1,65 @@
+.wrapper-2 {
+	color: blue;
+    position: absolute;
+    top: 700px;
+    background: #4bcaff;
+    width: 100%;
+}
+.tool {
+    position: absolute;
+    font-size: 20px;
+    top: -50px;
+    font-size: 22px;
+}
+.under {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+.content {
+    max-width: 1140px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    margin: auto;
+}
+
+.content-1{
+    max-width: 25%;
+    float: left;
+}
+
+.content-2{
+	max-width: 25%;
+    float: left;
+}
+
+.content-3{
+    max-width: 25%;
+    float: left;
+}
+
+
+.content-4{
+	max-width: 25%;
+    float: left;
+}
+
+.icon img {
+    width: 70px;
+    height: 60px;
+    background: #4bcaff;
+	color: #ffffff;
+}
+.begin{ 
+	color: #ffffff;
+}
+.information{
+    color: #ffffff;
+    width: 97%
+}
+
+
+
+
+
