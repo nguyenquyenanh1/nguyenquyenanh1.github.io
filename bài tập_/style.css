@@ -1,5 +1,5 @@
 * { 
-		padding: 0;
+	padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Andika;
@@ -59,18 +59,18 @@
 
 
 .sentence-1{
-		font-size: 45px;
+	font-size: 45px;
     position: absolute;
     font-weight: bold;
-    transform: translate(50%,100px);
+    transform: translate(80%,100px);
     color: #ffffff; 
 }
 
 .sentence-2{
-		position: absolute;
+	position: absolute;
     top: 0;
     font-size: 15px;
-    transform: translate(67%,170px);
+    transform: translate(100%,170px);
     color: #ffffff;
 }
 
@@ -83,7 +83,7 @@
     line-height: 60px;
     border-radius: 8px;
     color: #ffffff;
-    transform: translate(470px,260px);
+    transform: translate(620px,260px);
     margin: auto;
     position: absolute;
 }
