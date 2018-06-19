@@ -157,7 +157,7 @@
 }
 
 .message{
-	  width: 45%;
+	width: 45%;
     height: 300px;
     border-right: 1px solid #71717a;
     float: left;
@@ -168,33 +168,36 @@
 	color: #71717a;
 }
 .Name{
-		border: 1px solid #71717a;
+	border: 1px solid #71717a;
     width: 70%;
     height: 40px;
     line-height: 40px;
     text-indent: 15px;
     color: #71717a;
     margin-top: 25px;
+    font-size: 18px;
 }
 
 .Email{
-		border: 1px solid #71717a;
+	border: 1px solid #71717a;
     width: 70%;
     height: 40px;
     line-height: 40px;
     text-indent: 15px;
     color: #71717a;
     margin-top: 25px;
+    font-size: 18px;
 }
 
 .Message{
-		border: 1px solid #71717a;
+	border: 1px solid #71717a;
     width: 70%;
     height: 100px;
     line-height: 40px;
     text-indent: 15px;
     color: #71717a;
     margin-top: 25px;
+    font-size: 18px;
 }
 .button-2{
 	 	font-size: 20px;
