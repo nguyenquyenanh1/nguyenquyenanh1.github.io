@@ -1,0 +1,361 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: andika;
+}	
+
+.container{
+	width: 600px;
+	height: 600px;
+	background-color: #fff399;
+	margin: auto;
+	-moz-border-radius: 300px;
+    -webkit-border-radius: 300px;
+    --border-radius: 300px;
+    border-radius: 300px;
+}
+.circle{
+    width: 90%;
+    height: 90%;
+    background: #fff399;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    top: 5%;
+}
+.time12-6{
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    left: 50%;
+    transform: rotate(0deg);
+}
+
+.time1-7{
+	position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #940e0e;
+    left: 50%;
+    transform: rotate(30deg);
+}
+.time2-8{
+	position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #940e0e;
+    left: 50%;
+    transform: rotate(60deg);
+}
+.time3-9{
+	position: absolute;
+    width: 4px;
+    height: 100%;
+    left: 50%;
+    transform: rotate(90deg);
+}
+.time4-10{
+	position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #940e0e;
+    left: 50%;
+    transform: rotate(120deg);
+}
+.time5-11{
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #940e0e;
+    left: 50%;
+    transform: rotate(150deg);
+}
+
+.circle-small{
+    width: 92%;
+    height: 92%;
+    position: absolute;
+    left: 4%;
+    top: 4%;
+    background: #fff399;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.watch{
+    position: absolute;
+    width: 84%;
+    height: 84%;
+    background: #11790a;
+    left: 8%;
+    top: 8%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.time12-6-a{
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #940e0e;
+    left: 50%;
+    transform: rotate(0deg);
+}
+
+.time1-7-a{
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #940e0e;
+    left: 50%;
+    transform: rotate(30deg);
+}
+.time2-8-a{
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #940e0e;
+    left: 50%;
+    transform: rotate(60deg);
+}
+.time3-9-a{
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #940e0e;
+    left: 50%;
+    transform: rotate(90deg);
+}
+.time4-10-a{
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #940e0e;
+    left: 50%;
+    transform: rotate(120deg);
+}
+.time5-11-a{
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #940e0e;
+    left: 50%;
+    transform: rotate(150deg);
+}
+
+.circle-1 {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    background: #fff399;
+    border-radius: 50%;
+    z-index: 2;
+}
+.circle-small-a{
+    position: absolute;
+    width: 88%;
+    height: 88%;
+    background: #fff399;
+    left: 6%;
+    top: 6%;
+    border-radius: 50%;
+}
+.watch-a{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background: white;
+    left: 10%;
+    top: 10%;
+    border-radius: 50%;
+    z-index: 1
+}
+.container-small{
+    width: 33%;
+    height: 33%;
+    background-color: #fff399;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    z-index: 5;
+    top: 54%;
+    left: auto;
+}
+.container-small-2{
+    width: 33%;
+    height: 33%;
+    background-color: #fff399;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+    top: 33%;
+    left: 10%;
+}
+.container-small-3{
+    width: 33%;
+    height: 33%;
+    background-color: #fff399;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+    top: 33%;
+    left: 57%;
+}
+.trademark{   
+    position: absolute;
+    font-size: 25px;
+    width: 30%;
+    text-align: center;
+    left: 35%;
+    top: 20%;
+    z-index: 5;
+    letter-spacing: 3px;
+}
+.kim{
+    width: 4%;
+    height: 4%;
+    position: relative;
+    background: red;
+    border-radius: 50%;
+    top: 48%;
+    left: 48%;
+    z-index: 12
+} 
+.hour{
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    background: black;
+    top: 43.3%;
+    z-index: 10;
+    border-radius: 36%;
+    left: 25%;
+    transform: rotate(130deg);
+}
+.seconds{  
+    position: absolute;
+    width: 55%;
+    height: 7px;
+    background: red;
+    top: 37%;
+    z-index: 10;
+    border-radius: 50%;
+    transform: rotate(35deg);
+    left: 5%;
+}
+.kim-small{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background: green;
+    top: 45%;
+    left: 45%;
+    z-index: 11;
+    border-radius: 50%;
+}
+.hour-small{
+    width: 40%;
+    height: 4px;
+    background: black;
+    position: absolute;
+    top: 39%;
+    z-index: 10;
+    left: 39%;
+    border-radius: 40%;
+    transform: rotate(130deg);
+}
+.seconds-small{   
+    position: absolute;
+    width: 30%;
+    height: 3px;
+    background: gray;
+    top: 57%;
+    z-index: 10;
+    left: 28%;
+    border-radius: 50%;
+    transform: rotate(132deg);     
+} 
+.trademark-1{   
+    position: absolute;
+    font-size: 15px;
+    width: 30%;
+    text-align: center;
+    left: 35%;
+    top: 20%;
+    z-index: 5;
+    letter-spacing: 1px;
+    color: red;
+}
+.trademark-2{   
+    position: absolute;
+    font-size: 15px;
+    width: 30%;
+    text-align: center;
+    left: 35%;
+    top: 20%;
+    z-index: 5;
+    letter-spacing: 1px;
+    color: red;
+}
+.trademark-3{   
+    position: absolute;
+    font-size: 15px;
+    width: 30%;
+    text-align: center;
+    left: 35%;
+    top: 20%;
+    z-index: 5;
+    letter-spacing: 1px;
+    color: red;
+}
+.hour-12{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    left: 48%;
+    z-index: 11;
+    top: -7px;
+    width: 2%;
+}
+.hour-6{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    left: 49%;
+    z-index: 11;
+    top: 94.9%;
+    width: 2%;
+}
+.hour-3{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    left: 97%;
+    z-index: 11;
+    top: 46.8%;
+    width: 2%;
+}
+.hour-9{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    left: 1%;
+    z-index: 11;
+    top: 46.8%;
+    width: 2%;
+}
+
+
+
+
+
+
+
+
+
+
